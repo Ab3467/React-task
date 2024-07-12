@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./index.css";
-import AddTodoForm from "./components/AddTodoForm";
-import ListItem from "./components/ListItem";
+// import AddTodoForm from "./components/AddTodoForm";
+// import ListItem from "./components/ListItem";
 
 function App() {
-  const [todo, setTodo] = useState([]);
+  // const [todo, setTodo] = useState([]);
 
-  function handleAddItems(newItem) {
-    setTodo((prev) => [...prev, newItem]);
-  }
+  // function handleAddItems(newItem) {
+  //   setTodo((prev) => [...prev, newItem]);
+  // }
 
   return (
     <div className="flex flex-row items-center justify-center min-h-screen">
@@ -16,8 +16,8 @@ function App() {
         <h1 className="text-3xl font-bold text-blue-600 mb-4 font-serif">
           Todo List
         </h1>
-        <AddTodoForm additem={handleAddItems} />
-        <ListItem list={todo} />
+        {/* <AddTodoForm additem={handleAddItems} />
+        <ListItem list={todo} /> */}
       </div>
     </div>
   );
